@@ -7,10 +7,10 @@ def run_guessing_game
     puts "You guessed the correct number!"
   #  elsif input === "exit" || "EXIT"
     # return "Goodbye!"
-    run_guessing_game
+    # run_guessing_game
   elsif (1..6).include?(input) && input != random_num
     puts "Sorry! The computer guessed #{random_num}."
-    run_guessing_game
+    # run_guessing_game
   else
     input === "exit"
     return "Goodbye!"
