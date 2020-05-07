@@ -13,3 +13,11 @@ def run_guessing_game
     
   end
 end
+
+def prompt_user
+  puts "Please pick a number 1-6"
+end
+
+def get_input
+  input = gets.chomp
+end
