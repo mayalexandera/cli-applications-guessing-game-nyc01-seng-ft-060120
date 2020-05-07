@@ -5,7 +5,7 @@ def run_guessing_game
   puts "Please pick a number 1-6"
   input = gets.chomp 
   p input
-  if input === random_num
+  if input.to_i === random_num
     return "You guessed the correct number!"
   elsif input === "exit" || "EXIT"
     return "Goodbye!"
