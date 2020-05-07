@@ -1,7 +1,8 @@
 # Code your solution here!
 def run_guessing_game
   random_num = rand(1..6)
-  prompt_user()
+  # prompt_user()
+  puts "Please pick a number 1-6"
   input = get_input()
   if input === random_num
     puts "You guessed the correct number!"
