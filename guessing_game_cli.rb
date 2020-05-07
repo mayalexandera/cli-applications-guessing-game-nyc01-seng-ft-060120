@@ -7,9 +7,10 @@ def run_guessing_game
   
   if input === random_num
     return "You guessed the correct number!"
-  elsif
-    return "Sorry! The computer guessed #{random_num}."
-  else input === "exit" || "EXIT"
+  elsif input === "exit" || "EXIT"
     return "Goodbye!"
+  else
+    return "Sorry! The computer guessed #{random_num}."
+    
   end
 end
