@@ -3,7 +3,8 @@ def run_guessing_game
   random_num = rand(1..6)
   # prompt_user()
   puts "Please pick a number 1-6"
-  input = get_input()
+  # input = get_input()
+  input = gets.chomp.to_i
   if input === random_num
     puts "You guessed the correct number!"
   #  elsif input === "exit" || "EXIT"
