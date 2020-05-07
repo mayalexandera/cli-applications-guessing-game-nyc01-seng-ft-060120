@@ -26,4 +26,4 @@ def get_input
   input = gets.chomp.to_i
 end
 
-run_guessing_game
+# run_guessing_game
